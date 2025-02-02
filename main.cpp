@@ -10,7 +10,7 @@ BLECharacteristic *pTxCharacteristic = NULL; // 데이터 전송용 캐릭터리
 bool deviceConnected = false; // 장치 연결 상태 표시
 bool oldDeviceConnected = false; // 이전 연결 상태 표시
 
-// 고유 식별자(UUID) 정의
+// 고유 식별자(UUID, 128bit) 정의
 #define SERVICE_UUID           "4fafc201-1fb5-459e-8fcc-c5c9c331914b" // 서비스의 UUID
 #define CHARACTERISTIC_UUID_RX "6E400002-B5A3-F393-E0A9-E50E24DCCA9E" // 데이터 수신을 위한 캐릭터리스틱 UUID
 #define CHARACTERISTIC_UUID_TX "6E400003-B5A3-F393-E0A9-E50E24DCCA9E" // 데이터 전송을 위한 캐릭터리스틱 UUID
